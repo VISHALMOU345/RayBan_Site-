@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+   width: 100%;
+   height: 100vh;
+   /* background-color: black;  */
+}
+
+#back
+{
+   width: 100%;
+   height: 100vh;
+   background-color: black; 
+}
+
+#back img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top
+{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100vh;
+   /* background-color: red;  */
+}
+
+#workingarea
+{
+    position: relative;
+    height: 122vh;
+    width:90%;
+    max-width: 1920%;
+    /* margin-left: 40px; */
+    /* background-color: grey; */
+    /* border: 1px solid red; */
+}
+
+#nav
+{
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+/* /////////////////// */
+#nav img{
+    margin-top: -10px;
+    margin-left: 60px;
+    height: 50px;
+}
+#nleft , #nright
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nright a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "gilroy";
+}
+#nleft a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "gilroy";
+}
+#hero
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+}
+#heroleft
+{
+    margin-left: 60px;
+    min-width: 50%;
+    /* height: 100%; */
+    /* background-color: yellow; */
+}
+#heroright
+{
+
+    min-width: 25%;
+    color: white;
+    /* height: 100%; */
+    /* background-color: green; */
+}
+#heroleft .elem h1
+{
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 9vw;
+}
+#heroleft .elem
+{
+    overflow: hidden;
+    height: 8vw;
+    /* background-color: red; */
+}
+#heroleft button
+{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size:3vw;
+    margin-top: 2vw;
+    font-family:'kajiro';
+}
+
+#heroright
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:25%;
+    color: white;
+    /* background-color: greenyellow; */
+}
+#heroright p{
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: right;
+    
+}
+#heroright #img
+{
+    width: 100%;
+    height: 170px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    background-image: url(./img/nrig.png.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroright p:nth-child(3)
+{
+    margin-bottom: 60px;
+    /* color: red; */
+}
+
